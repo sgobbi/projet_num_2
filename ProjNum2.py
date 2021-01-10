@@ -7,7 +7,7 @@ def solve_euler_explicit(f, x0, dt, t0, tf):
     return t, x
 
 def solve_euler_implicit(f, x0, dt, t0, tf, itermax = 100):
-        t = [t0]
+    t = [t0]
     x = [x0]
     iter = 0
     while t[-1] < tf and i < itermax:
